@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Природа рядом с домом",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Посёлок окружён лесом и зелёными зонами. Прогулки, тишина и свежий воздух — прямо за порогом вашего дома.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Продуманные планировки",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Каждый дом и таунхаус спроектирован для комфортной семейной жизни: просторные кухни-гостиные, личные спальни, удобные санузлы.",
   },
   {
-    title: "Естественная динамика",
+    title: "Закрытая территория",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Охрана, видеонаблюдение и шлагбаум — ваши дети играют во дворе, а вы не беспокоитесь о безопасности.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Готово к въезду",
+    description: "Дороги с асфальтом, электричество, водопровод и газ — всё подключено. Заезжайте и живите без забот о коммуникациях.",
   },
 ]
 
@@ -53,11 +53,11 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наш посёлок</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Жизнь с
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>комфортом</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Коттеджный посёлок — это не просто дом. Это место, где приятно возвращаться каждый вечер, где растут дети и складываются соседские отношения.
             </p>
 
             {philosophyItems.map((item, index) => (
