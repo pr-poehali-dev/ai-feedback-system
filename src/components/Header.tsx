@@ -65,7 +65,7 @@ export function Header() {
           "fixed z-50 transition-all duration-500 my-0 py-0 rounded-none",
           scrolled || mobileMenuOpen
             ? "bg-primary backdrop-blur-md py-4 top-4 left-4 right-4 rounded-2xl"
-            : "bg-transparent py-4 top-0 left-0 right-0",
+            : "bg-black/60 backdrop-blur-sm py-4 top-0 left-0 right-0",
         )}
       >
         <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
