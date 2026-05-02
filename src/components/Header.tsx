@@ -55,17 +55,22 @@ export function Header() {
           ))}
         </ul>
 
-        <a
-          href="#contact"
-          className={cn(
-            "hidden md:inline-flex items-center gap-2 text-sm px-5 py-2.5 transition-all duration-300",
-            scrolled
-              ? "bg-white text-foreground border border-foreground/20 hover:bg-foreground hover:text-white"
-              : "bg-white text-foreground border border-foreground/20 hover:bg-foreground hover:text-white",
-          )}
-        >
-          Записаться на показ
-        </a>
+        <div className="hidden md:flex flex-col items-end gap-1">
+          <a href="tel:+79219644800" className="text-white text-sm font-medium tracking-wide hover:text-orange-200 transition-colors">
+            8-921-964-48-00
+          </a>
+          <a
+            href="#contact"
+            className={cn(
+              "inline-flex items-center gap-2 text-xs px-4 py-1.5 transition-all duration-300",
+              scrolled
+                ? "bg-white text-foreground border border-foreground/20 hover:bg-foreground hover:text-white"
+                : "bg-white text-foreground border border-foreground/20 hover:bg-foreground hover:text-white",
+            )}
+          >
+            Записаться на показ
+          </a>
+        </div>
 
         <button
           className="md:hidden z-50 transition-colors duration-300 text-white"
