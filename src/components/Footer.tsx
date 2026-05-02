@@ -50,8 +50,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+74951234567" className="hover:text-foreground transition-colors">
-                  +7 (495) 123-45-67
+                <a href="tel:+79219644800" className="hover:text-foreground transition-colors">
+                  8-921-964-48-00
                 </a>
               </li>
               <li>
